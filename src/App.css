@@ -1,0 +1,34 @@
+/* src/styles/App.css */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f4f4f4;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.book-card, .my-book-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.my-book-card label {
+  margin-right: 1rem;
+}
+
+.my-book-card select {
+  margin-left: 0.5rem;
+}
